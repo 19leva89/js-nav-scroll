@@ -1,0 +1,31 @@
+main {
+	display: grid;
+	grid-template-rows: repeat(6, 300px);
+	gap: 100px;
+	padding: 60px;
+	position: relative;
+}
+
+section {
+	background: #aeaeae;
+	border-radius: 12px;
+	padding: 12px;
+}
+
+button {
+	position: fixed;
+	bottom: 45px;
+	left: 45px;
+	align-items: center;
+	border-radius: 24px;
+	background: #ff7241;
+	width: 45px;
+	height: 45px;
+	padding: 12px;
+	transition: opacity 0.7s;
+	display: none;
+
+	&:hover {
+		opacity: 0.7;
+	}
+}
